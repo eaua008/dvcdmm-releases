@@ -6,7 +6,7 @@
 // CACHE is stamped with the version by scripts/publish-release.mjs, so each
 // release changes this file and phones pick up the new build.
 // Paths are relative to where the app is served (works on a sub-path too).
-const CACHE = "dvcdmm-shell-v1.0.4";
+const CACHE = "dvcdmm-shell-v1.0.5";
 const SHELL = new URL("./", self.registration.scope).href;
 
 self.addEventListener("install", (event) => {
